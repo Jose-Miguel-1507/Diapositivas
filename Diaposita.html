@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competitividad Regional - Atlántico</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        .slide {
+            width: 100%;
+            height: 100vh;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+        .slide.active { display: flex; }
+
+        .title { font-size: 36px; font-weight: bold; color: #003366; margin-bottom: 20px; }
+        .subtitle { font-size: 24px; color: #555; margin-bottom: 40px; }
+        .content { font-size: 20px; max-width: 900px; color: #222; line-height: 1.5; }
+        .highlight { color: #ff6600; font-weight: bold; }
+        ul { list-style-type: none; padding: 0; }
+        li { margin: 10px 0; }
+        img { max-width: 80%; height: auto; margin-top: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+        video { max-width: 80%; margin-top: 20px; border-radius: 10px; }
+        /* Flechas en pantalla opcionales */
+        .arrows {
+            position: fixed;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+            pointer-events: none;
+        }
+        .arrow {
+            font-size: 50px;
+            color: #333;
+            padding: 10px 20px;
+            pointer-events: all;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .imagen-1 {
+            width: 200px;
+            height: 300px;
+
+        }
+
+        .imagen-2 {
+            width: 300px;
+            height: 200px;
+        }
+
+        .imagen-3 {
+            width: 500px;
+            height: 200px;
+        }
+
+        video {
+            max-width: 40%
+        }
+    </style>
+</head>
+<body>
+    <!-- Diapositivas -->
+    <section class="slide active">
+        <div class="title">Competitividad Regional: Atlántico</div>
+        <div class="subtitle">Resultados, industria y empresas líderes</div>
+        <img class="imagen-1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Mapa_del_Atl%C3%A1ntico_%28pol%C3%ADtico%29.svg/1436px-Mapa_del_Atl%C3%A1ntico_%28pol%C3%ADtico%29.svg.png" alt="Mapa Atlántico">
+        <br>
+        <div class="content"><span>Presentado por:</span> Faider Solano, Jose Yaya, Hader Arrieta, Jose Landero & Yoleidis Monsalve </div>
+        
+    </section>
+
+    <section class="slide">
+        <div class="title">Resultados de participación</div>
+        <div class="content">
+            <p>Población proyectada 2025: <span class="highlight">2.845.169 habitantes</span></p>
+            <p><span>Posición IDC</span> (Índice Departamental de Competitividad.): <span class="highlight">6° lugar</span></p>
+            <p>PIB 2023: <span class="highlight">70.862 miles de millones COP</span> (4.47% nacional)</p>
+            <p>PIB per cápita: <span class="highlight">25.275.498 COP</span></p>
+            <p>PIB por trabajador: <span class="highlight">55.788.645 COP</span></p>
+        </div>
+        <img class="imagen-1" src="https://www.triviantes.com/wp-content/uploads/2023/03/departamento-atlantico-7.jpeg" alt="Gráfico PIB Atlántico">
+    </section>
+
+    <section class="slide">
+        <div class="title">Índice de Competitividad 2025</div>
+        <div class="content">
+            <ul>
+                <li>Instituciones: 7    |     Infraestructura: 3</li>
+                <li>Adopción TIC: 7     |     Sostenibilidad: 33</li>
+                <li>Salud: 3            |     Educación: 12</li>
+                <li>Educación Sup: 6    |     Negocios: 5</li>
+                <li>Mercado Laboral: 16 | Sistema Financiero: 5</li>
+                <li>Tamaño Mercado: 6   |   Sofisticación: 6   Innovación: 8</li>
+            </ul>
+        </div>
+        <img class="imagen-1" src="https://crciatlantico.co/wp-content/uploads/2021/02/recuadro-IDC.png" alt="Ranking IDC Atlántico">
+    </section>
+
+    <section class="slide">
+        <div class="title">Composición Industrial</div>
+        <div class="content">
+            <p>Sectores: alimentos y bebidas, petroquímica, construcción, textil y farmacéutico.</p>
+            <p>Ubicación estratégica: puerto de Barranquilla y clústeres diversificados.</p>
+        </div>
+        <img class="imagen-2" src="https://crciatlantico.co/wp-content/uploads/2021/06/industria-1-scaled.jpg" alt="Industrias Atlántico">
+    </section>
+
+    <section class="slide">
+        <div class="title">Principales Empresas</div>
+        <div class="content">
+            <ul>
+                <li><span class="highlight">Tecnoglass</span> (Construcción)</li>
+                <li><span class="highlight">Olímpica</span> (Retail)</li>
+                <li><span class="highlight">Monómeros</span> (Petroquímica)</li>
+                <li><span class="highlight">Procaps</span> (Farmacéutica)</li>
+                <li><span class="highlight">Postobón</span> (Bebidas)</li>
+            </ul>
+        </div>
+        <img class="imagen-3" src="Diseño sin título.png" alt="Empresas Atlántico">
+    </section>
+
+    <section class="slide">
+        <div class="title">Video de Apoyo</div>
+        <div class="content">Mira este breve video sobre competitividad en Atlántico: cómo el Atlántico se convirtió en líder en inversión y desarrollo</div>
+        <video controls>
+            <source class="video-1" src="“Verano revela cómo el Atlántico se convirtió en líder en inversión y desarrollo” - Quilla tv (720p, h264).mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+    </section>
+
+    <section class="slide">
+        <div class="title">Conclusiones</div>
+        <div class="content">
+            <p>Atlántico destaca por su infraestructura y diversificación industrial.</p>
+            <p>Retos: sostenibilidad ambiental y adopción de TIC.</p>
+            <p><strong>Visión:</strong> innovación y sostenibilidad como motor económico de Colombia.</p>
+        </div>
+        <img class="imagen-2" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Panor%C3%A1mica_general_de_Barranquilla.JPG" alt="Visión Futuro Atlántico">
+    </section>
+
+    <!-- Flechas visuales opcionales -->
+    <div class="arrows">
+        <div class="arrow" id="prev">&#10094;</div>
+        <div class="arrow" id="next">&#10095;</div>
+    </div>
+
+    <script>
+        const slides = document.querySelectorAll('.slide');
+        let current = 0;
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.toggle('active', i === index);
+            });
+        }
+
+        function nextSlide() {
+            current = (current + 1) % slides.length;
+            showSlide(current);
+        }
+
+        function prevSlide() {
+            current = (current - 1 + slides.length) % slides.length;
+            showSlide(current);
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') nextSlide();
+            if (e.key === 'ArrowLeft') prevSlide();
+        });
+
+        document.getElementById('next').addEventListener('click', nextSlide);
+        document.getElementById('prev').addEventListener('click', prevSlide);
+
+        showSlide(current);
+    </script>
+</body>
+</html>
